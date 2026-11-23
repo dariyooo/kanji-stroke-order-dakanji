@@ -1,0 +1,10 @@
+{
+  "kanjivg-all.zip": {
+    "name": "kanjivg-all.zip",
+    "repo": "KanjiVG/kanjivg",
+    "asset": "kanjivg-*-all.zip",
+    "kind": "github-release-asset",
+    "version": "r20260714",
+    "sha256": "534bd222052f4960747ff624014e426b08052164a837b15044f58517e85e4db5"
+  }
+}

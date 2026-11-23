@@ -1,8 +1,11 @@
-# built archives are published as GitHub releases, not committed
-out/*.zip
-
-# python / uv
-tmp/
 __pycache__/
+*.py[codz]
 .venv/
-*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Build output, the folders are kept so intermediate results can always be inspected
+tmp/**
+!tmp/.gitkeep
+out/**
+!out/.gitkeep
